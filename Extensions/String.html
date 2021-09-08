@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+
+    <a title="String Extension Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SwiftBeanCountParserUtils Docs
+        </a>
+         (100% documented)
+      </p>
+    
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/Nef10/SwiftBeanCountParserUtils">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2FNef10.github.io%2FSwiftBeanCountParserUtils%2Fdocsets%2FSwiftBeanCountParserUtils.xml">
+            <img class="header-icon" src="../img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SwiftBeanCountParserUtils Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      String Extension Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>String</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">String</span></code></pre>
+
+                </div>
+              </div>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS25SwiftBeanCountParserUtilsE15matchingStrings5regexSaySaySSGGSo19NSRegularExpressionC_tF"></a>
+                    <a name="//apple_ref/swift/Method/matchingStrings(regex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS25SwiftBeanCountParserUtilsE15matchingStrings5regexSaySaySSGGSo19NSRegularExpressionC_tF">matchingStrings(regex:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the matches of a NSRegularExpression on a string</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">matchingStrings</span><span class="p">(</span><span class="nv">regex</span><span class="p">:</span> <span class="kt">NSRegularExpression</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[[</span><span class="kt">String</span><span class="p">]]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>regex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSRegularExpression to match</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[[String]], the outer array contains an entry for each match and the inner arrays contain an entry for each capturing group</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/Nef10/SwiftBeanCountParserUtils/blob/main/Sources/SwiftBeanCountParserUtils/String.swift#L16-L23">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS25SwiftBeanCountParserUtilsE13amountDecimalSo9NSDecimala_SityF"></a>
+                    <a name="//apple_ref/swift/Method/amountDecimal()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS25SwiftBeanCountParserUtilsE13amountDecimalSo9NSDecimala_SityF">amountDecimal()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Parses a string into a Decimal, while determining how many decimal places the string contained</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">amountDecimal</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Decimal</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Tuple with the decimal and the number of decimal places the string contained</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/Nef10/SwiftBeanCountParserUtils/blob/main/Sources/SwiftBeanCountParserUtils/String.swift#L27-L47">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://github.com/Nef10" target="_blank" rel="noopener" rel="external">Nef10</a>. All rights reserved. (Last updated: 2021-09-08)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
