@@ -17,5 +17,5 @@ Check out the complete documentation of all offered methods [here](https://nef10
 The library supports the Swift Package Manger, so simply add a dependency in your `Package.swift`:
 
 ```
-.package(url: "https://github.com/Nef10/SwiftBeanCountParserUtils.git", .from("1.0.0")),
+.package(url: "https://github.com/Nef10/SwiftBeanCountParserUtils.git", from: "1.0.0"),
 ```
